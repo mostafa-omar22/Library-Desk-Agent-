@@ -1,0 +1,16 @@
+# LLM & Agent Framework
+langchain>=0.1.0
+langchain-openai>=0.0.2
+langchain-community>=0.0.10
+
+# Web Interface
+streamlit>=1.30.0
+
+# Environment Management
+python-dotenv>=1.0.0
+
+# Database (sqlite3 is built-in, but these help with utility)
+pandas>=2.0.0
+
+# Utilities
+uuid
