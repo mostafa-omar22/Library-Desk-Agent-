@@ -32,3 +32,26 @@ library/
 ├── init_db.py           # Script to reset/rebuild the database
 ├── requirements.txt     # Python dependencies
 └── .env                 # API Keys (Excluded from Git)
+
+
+## 🚀 Run the Project
+
+```bash
+# Clone the repository
+git clone https://github.com/mostafa-omar22/Library-Desk-Agent-
+cd Library-Desk-Agent-
+
+# (Optional) Create virtual environment
+python -m venv venv
+venv\Scripts\activate      # Windows
+# source venv/bin/activate # Mac/Linux
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Add your OpenAI API key to a .env file
+# OPENAI_API_KEY=your_key_here
+
+# Run the app
+streamlit run app/main.py
+```
